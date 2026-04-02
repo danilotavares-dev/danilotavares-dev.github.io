@@ -9,9 +9,12 @@ export const Hero = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: false, amount: 0.3 }}
         transition={{ duration: 0.8, ease: 'easeOut' }}
-        className="max-w-3xl text-center"
+        className="max-w-3xl flex flex-col items-center text-center"
       >
-        <Signature />
+        <div className="w-full flex justify-center mb-10">
+          <Signature />
+        </div>
+
         <h2 className="text-xl md:text-2xl text-neutral-400 mb-8 font-light">
           Desenvolvedor Full-Stack & Estudante de Engenharia de Software.
         </h2>
