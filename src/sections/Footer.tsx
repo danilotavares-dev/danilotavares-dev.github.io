@@ -13,7 +13,7 @@ export const Footer = () => {
         className="max-w-4xl mx-auto flex flex-col items-center text-center gap-8"
       >
         <div className="space-y-3">
-          <h3 className="text-xl font-medium text-red-400">
+          <h3 className="text-xl font-medium text-cyan-200">
             Obrigado por explorar.
           </h3>
           <p className="text-neutral-400 text-sm max-w-md mx-auto leading-relaxed">
