@@ -6,7 +6,7 @@ export const CosmosBackground = () => {
   const smoothScroll = useSpring(scrollYProgress, {
     stiffness: 40,
     damping: 20,
-    mass: 0.5,
+    mass: 0.1,
   })
 
   const yOrbe1 = useTransform(smoothScroll, [0, 1], ['0vh', '60vh'])

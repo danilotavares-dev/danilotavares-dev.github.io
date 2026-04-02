@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { Signature } from '../components/Signature'
 
 export const Hero = () => {
   return (
@@ -10,9 +11,7 @@ export const Hero = () => {
         transition={{ duration: 0.8, ease: 'easeOut' }}
         className="max-w-3xl text-center"
       >
-        <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6 text-white">
-          Danilo Lima
-        </h1>
+        <Signature />
         <h2 className="text-xl md:text-2xl text-neutral-400 mb-8 font-light">
           Desenvolvedor Full-Stack & Estudante de Engenharia de Software.
         </h2>

@@ -3,6 +3,7 @@ import { Achievements } from './sections/Achievements'
 import { Culture } from './sections/Culture'
 import { Insights } from './sections/Insights'
 import { CosmosBackground } from './components/CosmosBackground'
+import { Footer } from './sections/Footer'
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <Achievements />
       <Culture />
       <Insights />
+      <Footer />
     </main>
   )
 }
