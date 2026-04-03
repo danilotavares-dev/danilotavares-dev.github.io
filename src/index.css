@@ -2,7 +2,7 @@
 
 html,
 body {
-  background-color: #080c16;
+  background-color: transparent;
   color: white;
   overscroll-behavior-y: none;
 }
