@@ -20,7 +20,7 @@ export const CosmosBackground = () => {
   const yStars = useTransform(smoothScroll, [0, 1], ['0%', '15%'])
 
   return (
-    <div className="fixed inset-0 z-[-1] overflow-hidden bg-[#030014]">
+    <div className="fixed -inset-32 z-[-1] overflow-hidden bg-[#030014]">
       <svg
         className="absolute inset-0 w-full h-full opacity-[0.03] z-20 pointer-events-none"
         xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +39,7 @@ export const CosmosBackground = () => {
 
       <motion.div
         style={{ y: yStars }}
-        className="absolute inset-[-50%] opacity-30 pointer-events-none"
+        className="absolute inset-[-50%] opacity-30 pointer-events-none will-change-transform"
       >
         <svg
           width="100%"
@@ -66,30 +66,30 @@ export const CosmosBackground = () => {
       <div className="absolute inset-0 opacity-50 mix-blend-screen pointer-events-none">
         <motion.div
           style={{ y: yOrbe1, x: xOrbe1, rotate: rotateOrbe1 }}
-          className="absolute -top-[10%] -left-[10%] w-[50vw] h-[50vw] rounded-full bg-cyan-700 blur-[120px]"
+          className="absolute -top-[10%] -left-[10%] w-[50vw] h-[50vw] rounded-full bg-cyan-700 blur-[120px] will-change-transform"
         />
 
         <motion.div
           style={{ y: yOrbe2, x: xOrbe2, rotate: rotateOrbe2 }}
-          className="absolute top-[40%] right-[0%] w-[45vw] h-[45vw] rounded-full bg-fuchsia-700 blur-[130px]"
+          className="absolute top-[40%] right-[0%] w-[45vw] h-[45vw] rounded-full bg-fuchsia-700 blur-[130px] will-change-transform"
         />
 
         <motion.div
           style={{ y: yStars }}
-          className="absolute top-[20%] left-[30%] w-[60vw] h-[40vw] rounded-full bg-violet-700 blur-[150px] opacity-60"
+          className="absolute top-[20%] left-[30%] w-[60vw] h-[40vw] rounded-full bg-violet-700 blur-[150px] opacity-60 will-change-transform"
         />
       </div>
 
       <motion.div
         style={{ y: yOrbe1 }}
-        className="absolute top-1/3 left-[15%] z-10"
+        className="absolute top-1/3 left-[15%] z-10 will-change-transform"
       >
         <div className="w-2 h-2 rounded-full bg-cyan-200 shadow-[0_0_20px_4px_rgba(34,211,238,0.8)]" />
       </motion.div>
 
       <motion.div
         style={{ y: yOrbe2 }}
-        className="absolute bottom-1/4 right-[20%] z-10"
+        className="absolute bottom-1/4 right-[20%] z-10 will-change-transform"
       >
         <div className="w-3 h-3 rounded-full bg-fuchsia-300 shadow-[0_0_25px_5px_rgba(217,70,239,0.8)]" />
       </motion.div>
