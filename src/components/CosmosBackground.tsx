@@ -20,7 +20,7 @@ export const CosmosBackground = () => {
   const yStars = useTransform(smoothScroll, [0, 1], ['0%', '15%'])
 
   return (
-    <div className="fixed top-0 left-0 w-full h-[120vh] z-[-1] overflow-hidden bg-[#030014]">
+    <div className="fixed inset-0 z-[-1] overflow-hidden bg-[#030014]">
       <svg
         className="absolute inset-0 w-full h-full opacity-[0.03] z-20 pointer-events-none"
         xmlns="http://www.w3.org/2000/svg"
@@ -66,17 +66,17 @@ export const CosmosBackground = () => {
       <div className="absolute inset-0 opacity-50 mix-blend-screen pointer-events-none">
         <motion.div
           style={{ y: yOrbe1, x: xOrbe1, rotate: rotateOrbe1 }}
-          className="absolute -top-[5%] -left-[10%] w-[80vw] h-[80vw] md:w-[50vw] md:h-[50vw] rounded-full bg-cyan-700 blur-[70px] md:blur-[120px]"
+          className="absolute -top-[10%] -left-[10%] w-[50vw] h-[50vw] rounded-full bg-cyan-700 blur-[120px]"
         />
 
         <motion.div
           style={{ y: yOrbe2, x: xOrbe2, rotate: rotateOrbe2 }}
-          className="absolute top-[40%] right-[-10%] w-[70vw] h-[70vw] md:w-[45vw] md:h-[45vw] rounded-full bg-fuchsia-700 blur-[80px] md:blur-[130px]"
+          className="absolute top-[40%] right-[0%] w-[45vw] h-[45vw] rounded-full bg-fuchsia-700 blur-[130px]"
         />
 
         <motion.div
           style={{ y: yStars }}
-          className="absolute top-[20%] left-[10%] md:left-[30%] w-[90vw] h-[60vw] md:w-[60vw] md:h-[40vw] rounded-full bg-violet-700 blur-[90px] md:blur-[150px] opacity-60"
+          className="absolute top-[20%] left-[30%] w-[60vw] h-[40vw] rounded-full bg-violet-700 blur-[150px] opacity-60"
         />
       </div>
 
