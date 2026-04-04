@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 html {
-  background-color: #030014;
+  background-color: #000000;
   color: white;
   overscroll-behavior-y: none;
   padding-bottom: env(safe-area-inset-bottom);

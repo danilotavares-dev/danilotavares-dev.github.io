@@ -70,7 +70,7 @@ export const CosmosBackground = () => {
   }, [])
 
   return (
-    <div className="fixed top-0 left-0 right-0 h-[100dvh] z-[-1] overflow-hidden bg-[#030014] [contain:strict]">
+    <div className="fixed top-0 left-0 right-0 h-dvh z-[-1] overflow-hidden bg-black contain:strict">
       <svg
         className="absolute inset-0 w-full h-full opacity-[0.03] z-20 pointer-events-none"
         xmlns="http://www.w3.org/2000/svg"
@@ -121,7 +121,7 @@ export const CosmosBackground = () => {
 
         <div
           ref={orbe2Ref}
-          className="absolute top-[40%] right-[0%] w-[45vw] h-[45vw] rounded-full bg-fuchsia-900 blur-[90px] opacity-50 mix-blend-screen will-change-transform"
+          className="absolute top-[40%] right-[0%] w-[45vw] h-[45vw] rounded-full bg-violet-800/40 blur-[90px] opacity-50 mix-blend-screen will-change-transform"
         />
 
         <div
