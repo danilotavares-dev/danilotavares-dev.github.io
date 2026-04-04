@@ -5,7 +5,7 @@ export const Footer = () => {
   const anoAtual = new Date().getFullYear()
 
   return (
-    <footer className="w-full py-16 px-6 border-t border-neutral-800/50 mt-12 bg-slate-950">
+    <footer className="w-full py-16 px-6 border-t border-neutral-800/50 mt-12 bg-[#000000]">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -14,8 +14,8 @@ export const Footer = () => {
         className="max-w-4xl mx-auto flex flex-col items-center text-center gap-10"
       >
         <div className="space-y-3">
-          <h3 className="text-xl font-medium text-cyan-50">
-            Obrigado por explorar.
+          <h3 className="text-xl font-medium text-red-50">
+            Obrigado pela atenção.
           </h3>
           <p className="text-neutral-400 text-sm max-w-md mx-auto leading-relaxed">
             Este jardim digital está sempre em cultivo. Sinta-se à vontade para
