@@ -1,36 +1,75 @@
-import { motion, useScroll, useTransform } from 'framer-motion'
+'use client'
+
+import {
+  motion,
+  useScroll,
+  useTransform,
+  useReducedMotion,
+} from 'framer-motion'
+import { useEffect, useState } from 'react'
 
 export function BackgroundAnimated() {
   const { scrollYProgress } = useScroll()
+  const shouldReduceMotion = useReducedMotion()
+
+  const [isMobile, setIsMobile] = useState(false)
+
+  useEffect(() => {
+    const mq = window.matchMedia('(max-width: 768px)')
+    setIsMobile(mq.matches)
+    const handler = (e: MediaQueryListEvent) => setIsMobile(e.matches)
+    mq.addEventListener('change', handler)
+    return () => mq.removeEventListener('change', handler)
+  }, [])
 
   const pathLength1 = useTransform(scrollYProgress, [0, 1], [0.3, 1])
   const pathLength2 = useTransform(scrollYProgress, [0.2, 0.8], [0, 1])
+
+  // Em mobile, as linhas ficam estáticas (não animam com scroll)
+  // para evitar recálculos constantes de layout no mobile
+  const staticPath = shouldReduceMotion || isMobile
+
+  const blurAmount = isMobile ? 40 : 80
+  const strokeWidth1 = isMobile ? 6 : 15
+  const strokeWidth2 = isMobile ? 4 : 10
 
   return (
     <div className="fixed inset-0 z-[-1] bg-black overflow-hidden pointer-events-none flex items-center justify-center">
       <motion.svg
         viewBox="0 0 100 1000"
         preserveAspectRatio="none"
-        className="absolute w-[150vw] h-[150vh] blur-[120px] will-change-transform"
+        className="absolute w-full h-full"
+        style={{
+          filter: `blur(${blurAmount}px)`,
+          transform: 'translateZ(0)', // força GPU layer sem will-change no SVG
+        }}
       >
         <motion.path
           d="M0,0 C30,150 90,50 90,200 C90,350 30,250 30,400 C30,550 90,450 90,600 C90,750 30,650 30,800 C30,950 90,850 90,1000"
           fill="none"
           stroke="url(#grad1)"
-          strokeWidth="15"
+          strokeWidth={strokeWidth1}
           strokeLinecap="round"
           strokeLinejoin="round"
-          style={{ pathLength: pathLength1 }}
+          style={
+            staticPath
+              ? { pathLength: 0.7 }
+              : { pathLength: pathLength1, willChange: 'stroke-dashoffset' }
+          }
         />
 
         <motion.path
           d="M100,0 C70,150 10,50 10,200 C10,350 70,250 70,400 C70,550 10,450 10,600 C10,750 70,650 70,800 C70,950 10,850 10,1000"
           fill="none"
           stroke="url(#grad2)"
-          strokeWidth="10"
+          strokeWidth={strokeWidth2}
           strokeLinecap="round"
           strokeLinejoin="round"
-          style={{ pathLength: pathLength2 }}
+          style={
+            staticPath
+              ? { pathLength: 0.5 }
+              : { pathLength: pathLength2, willChange: 'stroke-dashoffset' }
+          }
         />
 
         <defs>
