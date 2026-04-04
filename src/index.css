@@ -4,10 +4,12 @@ html {
   background-color: #030014;
   color: white;
   overscroll-behavior-y: none;
+  padding-bottom: env(safe-area-inset-bottom);
 }
 
 body {
   background-color: transparent;
+  min-height: 100dvh;
 }
 
 #root {
