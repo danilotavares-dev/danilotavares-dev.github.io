@@ -12,7 +12,7 @@ export const Insights = () => {
         className="mb-16"
       >
         <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-          Laboratório & Insights
+          <span>Laboratório & Insights</span>
         </h2>
         <p className="text-xl text-neutral-400 max-w-2xl font-light">
           Anotações curtas, estudos em andamento e pensamentos soltos sobre

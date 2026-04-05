@@ -11,7 +11,7 @@ export const TimeLine = () => {
         transition={{ duration: 0.6 }}
         className="text-4xl md:text-5xl font-bold mb-16 text-white"
       >
-        Marcos & Checkpoints
+        <span>Marcos & Checkpoints</span>
       </motion.h2>
 
       <div className="space-y-12">

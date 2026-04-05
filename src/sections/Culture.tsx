@@ -19,7 +19,7 @@ export const Culture = () => {
         className="mb-16"
       >
         <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-          Cultura & Referências
+          <span>Cultura & Referências</span>
         </h2>
         <p className="text-xl text-neutral-400 max-w-2xl font-light">
           Algumas recomendações de conteúdos que consumi ao longo da minha
