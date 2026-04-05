@@ -79,7 +79,7 @@ function DesktopBackground() {
         preserveAspectRatio="none"
         className="absolute w-full h-full"
         style={{
-          filter: 'blur(80px)',
+          filter: 'blur(75px)',
           transform: 'translateZ(0)',
         }}
       >
