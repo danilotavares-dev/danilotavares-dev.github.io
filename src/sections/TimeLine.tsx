@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
-import { achievementsData } from '../data/archievementsData'
+import { timeLineData } from '../data/timeLineData'
 
-export const Achievements = () => {
+export const TimeLine = () => {
   return (
     <section className="min-h-screen py-24 px-6 max-w-4xl mx-auto flex flex-col justify-center">
       <motion.h2
@@ -11,11 +11,11 @@ export const Achievements = () => {
         transition={{ duration: 0.6 }}
         className="text-4xl md:text-5xl font-bold mb-16 text-white"
       >
-        Construções & Conquistas
+        Marcos & Checkpoints
       </motion.h2>
 
       <div className="space-y-12">
-        {achievementsData.map((item, index) => (
+        {timeLineData.map((item, index) => (
           <motion.div
             key={item.id}
             initial={{ opacity: 0, y: 50 }}
@@ -24,6 +24,10 @@ export const Achievements = () => {
             transition={{ duration: 0.6, delay: index * 0.2 }}
             className="bg-neutral-900/50 border border-neutral-800 p-8 rounded-2xl hover:bg-neutral-900 transition-colors"
           >
+            <p className="text-neutral-500 mb-2 leading-relaxed text-sm">
+              {item.data}
+            </p>
+
             <h3 className="text-2xl font-semibold text-neutral-100 mb-3">
               {item.titulo}
             </h3>

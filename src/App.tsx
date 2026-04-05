@@ -1,5 +1,5 @@
 import { Hero } from './sections/Hero'
-import { Achievements } from './sections/Achievements'
+import { TimeLine } from './sections/TimeLine'
 import { Culture } from './sections/Culture'
 import { Insights } from './sections/Insights'
 import { BackgroundAnimated } from './components/backgroundAnimated'
@@ -10,7 +10,7 @@ export default function App() {
     <main className="text-neutral-50 min-h-screen overflow-x-hidden font-sans relative">
       <BackgroundAnimated />
       <Hero />
-      <Achievements />
+      <TimeLine />
       <Culture />
       <Insights />
       <Footer />
