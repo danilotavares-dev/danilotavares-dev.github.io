@@ -34,7 +34,6 @@ function MobileBackground() {
           style={{
             pathLength: pathLength1,
             willChange: 'stroke-dashoffset',
-            filter: 'blur(30px)',
           }}
         />
         <motion.path
@@ -47,7 +46,6 @@ function MobileBackground() {
           style={{
             pathLength: pathLength2,
             willChange: 'stroke-dashoffset',
-            filter: 'blur(10px)',
           }}
         />
 
