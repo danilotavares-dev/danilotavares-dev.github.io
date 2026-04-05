@@ -39,9 +39,9 @@ export const Culture = () => {
               key={item.id}
               initial={{ opacity: 0, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: false, margin: '-50px' }}
+              viewport={{ once: true, margin: '-50px' }}
               transition={{ duration: 0.5, delay: index * 0.15 }}
-              className={`bg-neutral-900/40 backdrop-blur-sm border ${estilos.borda} p-8 rounded-2xl hover:bg-neutral-800/50 transition-all duration-300 group`}
+              className={`bg-neutral-900/40 backdrop-blur-sm border ${estilos.borda} p-8 rounded-2xl hover:bg-neutral-800/50 transition-colors duration-300 group`}
             >
               <span
                 className={`text-sm font-medium tracking-wider uppercase mb-2 block ${estilos.texto}`}
