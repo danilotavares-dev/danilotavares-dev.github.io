@@ -19,7 +19,7 @@ export const Hero = () => {
           Desenvolvedor Full-Stack & Estudante de Engenharia de Software.
         </h2>
         <p className="text-lg text-neutral-500 max-w-2xl mx-auto leading-relaxed">
-          Bem-vindo ao meu jardim digital. Um espaço informal para documentar
+          Bem-vindo ao meu espaço digital. Um espaço informal para documentar
           meus projetos, ideias e o que mais estiver na minha cabeça.
         </p>
       </motion.div>

@@ -18,7 +18,7 @@ export const Footer = () => {
             Obrigado pela atenção.
           </h3>
           <p className="text-neutral-400 text-sm max-w-md mx-auto leading-relaxed">
-            Este jardim digital está sempre em cultivo. Sinta-se à vontade para
+            Este espaço digital está sempre em evolução. Sinta-se à vontade para
             se conectar para trocarmos ideias sobre código, tecnologia, ou
             apenas para dar um "oi".
           </p>
