@@ -66,6 +66,14 @@ export const cultureData: CultureItem[] = [
       'Um clássico imperdível. Retrata a rivalidade histórica e brilhante entre Steve Jobs e Bill Gates, mostrando os bastidores do surgimento da Apple e da Microsoft.',
   },
 
+  {
+    id: 7,
+    categoria: 'FILME',
+    titulo: 'Ex Machina',
+    descricao:
+      'Um thriller psicológico instigante. Ex Machina explora os limites entre inteligência artificial e humanidade, acompanhando um programador que testa uma robô avançada e acaba envolvido em um jogo sutil de manipulação, consciência e poder.',
+  },
+
   // SERIES
   // OUTROS
 ]
