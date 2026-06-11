@@ -9,7 +9,7 @@ export function ProductBar() {
   const [isOpen, setIsOpen] = useState(false)
 
   const modalItems: LinksModal[] = [
-    { title: 'Currículo', href: '/danilo-resume.pdf' },
+    { title: 'Currículo', href: '/Curriculo_Danilo_Tavares.pdf' },
     { title: 'Nilo Labs - Em breve', href: '/' },
   ]
 
