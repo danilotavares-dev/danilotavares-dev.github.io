@@ -28,10 +28,10 @@ export const Signature = () => {
     >
       <defs>
         <linearGradient id="coralGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" style={{ stopColor: '#E8514A', stopOpacity: 1 }} />
+          <stop offset="0%" style={{ stopColor: '#12233D', stopOpacity: 1 }} />
           <stop
             offset="100%"
-            style={{ stopColor: '#F5A97F', stopOpacity: 1 }}
+            style={{ stopColor: '#699CD6', stopOpacity: 1 }}
           />
         </linearGradient>
       </defs>
