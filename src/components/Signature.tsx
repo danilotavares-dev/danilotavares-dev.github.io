@@ -31,7 +31,7 @@ export const Signature = () => {
           <stop offset="0%" style={{ stopColor: '#12233D', stopOpacity: 1 }} />
           <stop
             offset="100%"
-            style={{ stopColor: '#699CD6', stopOpacity: 1 }}
+            style={{ stopColor: '#94C6FF', stopOpacity: 1 }}
           />
         </linearGradient>
       </defs>
