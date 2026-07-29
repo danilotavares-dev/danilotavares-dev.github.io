@@ -10,9 +10,18 @@ export const timeLineData: TimeLineItem[] = [
   {
     id: 1,
     data: 'Março/2026',
-    titulo: 'Fundação da Nilo Labs',
+    titulo: 'Plataforma Igris (Arquitetura de Observabilidade)',
     descricao:
-      'Criação de uma organização no GitHub focada em R&D (Pesquisa e Desenvolvimento). Um espaço dedicado para centralizar meus estudos avançados, arquiteturas complexas, Inteligência Artificial e DevOps.',
-    tags: ['R&D', 'Open Source', 'Iniciativa'],
+      'Desenvolvimento de um sistema de AIOps estruturado para detecção de anomalias. O projeto contempla o pipeline de dados e a integração do modelo Isolation Forest, focado em confiabilidade de sistemas.',
+    tags: ['Python', 'Machine Learning', 'AIOps'],
+  },
+
+  {
+    id: 1,
+    data: 'Dezembro/2025',
+    titulo: 'Movie Garden (Aplicação Full-Stack & IA)',
+    descricao:
+      'Concepção e desenvolvimento de uma plataforma de recomendação de conteúdo. Foco na estruturação de APIs, consumo de dados da TMDB e implementação de algoritmos de sugestão personalizada.',
+    tags: ['TypeScript', 'React', 'Node.js'],
   },
 ]

@@ -9,8 +9,7 @@ export function ProductBar() {
   const [isOpen, setIsOpen] = useState(false)
 
   const modalItems: LinksModal[] = [
-    { title: 'Currículo', href: '/Curriculo_Danilo_Tavares.pdf' },
-    { title: 'Nilo Labs - Em breve', href: '/' },
+    { title: 'Currículo', href: './' },
   ]
 
   return (
@@ -18,7 +17,7 @@ export function ProductBar() {
       <button
         type="button"
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center justify-center min-w-20 w-20 h-8 bg-zinc-700/50 rounded-full border border-[#274B8A] opacity-0 animate-[fadeIn_1s_ease-in_forwards] z-10 hover:bg-zinc-500/30 transition-colors"
+        className="flex items-center cursor-pointer justify-center min-w-20 w-20 h-8 bg-zinc-700/50 rounded-full border border-[#274B8A] opacity-0 animate-[fadeIn_1s_ease-in_forwards] z-10 hover:bg-zinc-500/30 transition-colors"
       >
         <svg
           width="20"

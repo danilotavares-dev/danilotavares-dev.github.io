@@ -14,7 +14,7 @@ export const cultureData: CultureItem[] = [
     categoria: 'LIVRO',
     titulo: 'Clean Code (Código Limpo)',
     descricao:
-      'A verdadeira "bíblia" para quem quer ser um engenheiro de software de excelência. Um guia sobre como escrever códigos legíveis, sustentáveis e profissionais.',
+      'A verdadeira "bíblia" para quem quer ser um engenheiro de software de excelência. Um guia sobre como escrever códigos legíveis, sustentáveis e de alta qualidade.',
   },
 
   {
