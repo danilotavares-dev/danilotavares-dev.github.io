@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { insightsData } from '../data/insightsData'
 
-export const Insights = () => {
+export const Research = () => {
   return (
     <section className="min-h-screen py-24 px-6 max-w-4xl mx-auto flex flex-col justify-center">
       <motion.div
@@ -12,11 +12,10 @@ export const Insights = () => {
         className="mb-16"
       >
         <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-          <span>Laboratório & Insights</span>
+          <span>Laboratório & Pesquisas</span>
         </h2>
         <p className="text-xl text-neutral-400 max-w-2xl font-light">
-          Anotações curtas, estudos em andamento e pensamentos soltos sobre
-          tecnologia e evolução contínua.
+          texto de teste
         </p>
       </motion.div>
 
