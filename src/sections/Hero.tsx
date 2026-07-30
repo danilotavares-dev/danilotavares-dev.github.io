@@ -19,8 +19,9 @@ export const Hero = () => {
           AI-Engineer & Estudante de Engenharia de Software.
         </h2>
         <p className="text-lg text-neutral-500 max-w-2xl mx-auto leading-relaxed">
-          Bem-vindo ao meu espaço profissional. Aqui você encontrará uma visão consolidada da minha trajetória, 
-          além de projetos e soluções que venho desenvolvendo.
+          Bem-vindo ao meu espaço profissional. Aqui você encontrará uma visão
+          consolidada da minha trajetória, além de projetos e soluções que venho
+          desenvolvendo.
         </p>
       </motion.div>
 

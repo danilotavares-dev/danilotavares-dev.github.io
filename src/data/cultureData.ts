@@ -44,6 +44,6 @@ export const cultureData: CultureItem[] = [
   // FILMES
 
   // SERIES
-  
+
   // OUTROS
 ]

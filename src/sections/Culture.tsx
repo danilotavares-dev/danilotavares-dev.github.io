@@ -22,7 +22,8 @@ export const Culture = () => {
           <span>Cultura & Referências</span>
         </h2>
         <p className="text-xl text-neutral-400 max-w-2xl font-light">
-          Livros e referências técnicas que acompanham a minha jornada em engenharia e tecnologia.
+          Livros e referências técnicas que acompanham a minha jornada em
+          engenharia e tecnologia.
         </p>
       </motion.div>
 

@@ -1,7 +1,7 @@
 import { Hero } from './sections/Hero'
 import { TimeLine } from './sections/TimeLine'
 import { Culture } from './sections/Culture'
-import { Research } from './sections/Research'
+//import { Research } from './sections/Research'
 import { ProductBar } from './components/ProductBar'
 import { BackgroundAnimated } from './components/BackgroundAnimated'
 import { Footer } from './sections/Footer'
@@ -13,7 +13,6 @@ export default function App() {
       <ProductBar />
       <Hero />
       <TimeLine />
-      {/*<Research />*/}
       <Culture />
       <Footer />
     </main>
