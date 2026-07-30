@@ -42,38 +42,8 @@ export const cultureData: CultureItem[] = [
   },
 
   // FILMES
-  {
-    id: 5,
-    categoria: 'FILME',
-    titulo: 'O Jogo da Imitação',
-    descricao:
-      'A história de Alan Turing, o pai da computação moderna. Um filme brilhante sobre criptografia, matemática e a criação da máquina que deu origem aos computadores.',
-  },
-
-  {
-    id: 6,
-    categoria: 'FILME',
-    titulo: 'Steve Jobs',
-    descricao:
-      'Um mergulho frenético nos bastidores da mente complexa do cofundador da Apple, focando nos momentos de tensão antes dos lançamentos que revolucionaram a tecnologia.',
-  },
-
-  {
-    id: 7,
-    categoria: 'FILME',
-    titulo: 'Piratas do Vale do Silício',
-    descricao:
-      'Um clássico imperdível. Retrata a rivalidade histórica e brilhante entre Steve Jobs e Bill Gates, mostrando os bastidores do surgimento da Apple e da Microsoft.',
-  },
-
-  {
-    id: 8,
-    categoria: 'FILME',
-    titulo: 'Ex Machina',
-    descricao:
-      'Um thriller psicológico instigante. Ex Machina explora os limites entre inteligência artificial e humanidade, acompanhando um programador que testa uma robô avançada e acaba envolvido em um jogo sutil de manipulação, consciência e poder.',
-  },
 
   // SERIES
+  
   // OUTROS
 ]
