@@ -8,7 +8,8 @@ interface LinksModal {
 export function ProductBar() {
   const [isOpen, setIsOpen] = useState(false)
 
-  const modalItems: LinksModal[] = [{ title: 'Currículo', href: './' }]
+  const modalItems: LinksModal[] = [{ title: 'Currículo - PT', href: './Danilo_Tavares_Resume_PT.pdf' }, { title: 'Currículo - EN', href: './Danilo_Tavares_Resume_EN.pdf' }]
+  
 
   return (
     <div className="relative flex flex-col items-center mt-7 mx-5">
