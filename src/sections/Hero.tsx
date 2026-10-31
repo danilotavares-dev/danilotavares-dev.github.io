@@ -16,10 +16,10 @@ export const Hero = () => {
         </div>
 
         <h2 className="text-xl md:text-2xl text-neutral-400 mb-8 font-light">
-          AI-Engineer & Estudante de Engenharia de Software.
+          Estudante de Engenharia de Software & AI
         </h2>
         <p className="text-lg text-neutral-500 max-w-2xl mx-auto leading-relaxed">
-          Bem-vindo ao meu espaço profissional. Aqui você encontrará uma visão
+          Bem-vindo ao meu espaço no universo. Aqui você encontrará uma visão
           consolidada da minha trajetória, além de projetos e soluções que venho
           desenvolvendo.
         </p>

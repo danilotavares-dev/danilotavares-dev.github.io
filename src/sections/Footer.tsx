@@ -15,7 +15,7 @@ export const Footer = () => {
       >
         <div className="space-y-3">
           <h3 className="text-xl font-medium text-red-50">
-            Feito com 💙 por Danilo Tavares
+            Feito com 🩶 por Danilo Tavares
           </h3>
           <p className="text-neutral-400 text-sm max-w-md mx-auto leading-relaxed">
             Este espaço digital está em constante evolução. Sinta-se à vontade

@@ -51,14 +51,14 @@ function MobileBackground() {
 
         <defs>
           <linearGradient id="grad1-mobile" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" stopColor="#fb923c" stopOpacity="0.5" />
-            <stop offset="50%" stopColor="#fdba74" stopOpacity="0.4" />
-            <stop offset="100%" stopColor="#ec4899" stopOpacity="0.3" />
+            <stop offset="0%" stopColor="#58a6ff" stopOpacity="0.5" />
+            <stop offset="50%" stopColor="#79c0ff" stopOpacity="0.4" />
+            <stop offset="100%" stopColor="#8b949e" stopOpacity="0.3" />
           </linearGradient>
           <linearGradient id="grad2-mobile" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" stopColor="#ec4899" stopOpacity="0.3" />
-            <stop offset="50%" stopColor="#312e81" stopOpacity="0.2" />
-            <stop offset="100%" stopColor="#000" stopOpacity="0.1" />
+            <stop offset="0%" stopColor="#79c0ff" stopOpacity="0.3" />
+            <stop offset="50%" stopColor="#30363d" stopOpacity="0.2" />
+            <stop offset="100%" stopColor="#0d1117" stopOpacity="0.1" />
           </linearGradient>
         </defs>
       </motion.svg>
@@ -104,14 +104,14 @@ function DesktopBackground() {
 
         <defs>
           <linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" stopColor="#fb923c" stopOpacity="1" />
-            <stop offset="50%" stopColor="#fdba74" stopOpacity="0.8" />
-            <stop offset="100%" stopColor="#ec4899" stopOpacity="0.6" />
+            <stop offset="0%" stopColor="#58a6ff" stopOpacity="1" />
+            <stop offset="50%" stopColor="#79c0ff" stopOpacity="0.8" />
+            <stop offset="100%" stopColor="#8b949e" stopOpacity="0.6" />
           </linearGradient>
           <linearGradient id="grad2" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" stopColor="#ec4899" stopOpacity="0.6" />
-            <stop offset="50%" stopColor="#312e81" stopOpacity="0.4" />
-            <stop offset="100%" stopColor="#000" stopOpacity="0.1" />
+            <stop offset="0%" stopColor="#79c0ff" stopOpacity="0.6" />
+            <stop offset="50%" stopColor="#30363d" stopOpacity="0.4" />
+            <stop offset="100%" stopColor="#0d1117" stopOpacity="0.1" />
           </linearGradient>
         </defs>
       </motion.svg>
